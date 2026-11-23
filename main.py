@@ -15,6 +15,7 @@ over an alleged plot against rapper Kyivstoner; 11 killed in a strike
 near Kyiv with missiles straying into Poland; and Verstappen winning
 the Las Vegas Grand Prix.
 """
+import hashlib
 import os
 import shutil
 import sys
@@ -23,11 +24,25 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "entry.png")
 
 
+def _sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
 def main():
+    if not os.path.isfile(SRC):
+        print(f"error: source image not found: {SRC}", file=sys.stderr)
+        return 1
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     dst = os.path.join(out_dir, "entry.png")
     shutil.copyfile(SRC, dst)
+    if _sha256(dst) != _sha256(SRC):
+        print(f"error: copy verification failed: {dst}", file=sys.stderr)
+        return 1
     print(f"wrote {dst} ({os.path.getsize(dst)} bytes)")
     return 0
 
