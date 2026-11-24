@@ -10,18 +10,30 @@ world's news of Monday 23 November 2026.
 
 ## The image
 
-A dark "Global Terminal" dashboard, 1024×1024 PNG, ten stories:
+A "THE WORLD IN ONE DAY" newspaper front page, 1024×1024 PNG — cream
+paper, serif masthead, a 6-number stat strip, three illustrated lead
+stories, a 9-card grid, a 10-item tail list, a DATE CHECK box and a
+world map + UTC timeline. 22 verified stories from Monday 23 November
+2026 (rebuild of the "Global Terminal" dashboard, round 2 rank
+6,862/9,643):
 
-- **COP31 collapses in Antalya** — no pact; the longest COP ever, no fossil fuels
-- **Ukraine hits a Russian warship** — Zelenskyy: 7 drones sank the Merkury in Libya
-- **Iran strikes Bahrain; tankers hit** — 2 wounded; IRGC says it hit US radars
-- **Democrats take the House, 258 seats** — biggest majority since 1992; +44 seats
-- **AI rout hits Asian chip stocks** — Kospi −5.8% intraday; Samsung −3.1%
-- **Nvidia reinstates Jensen Huang** — CEO back 12 days after resigning
-- **24 dead in the Cikande factory fire** — ~30 missing; candy factory in Banten
-- **Denmark expels a Russian attaché** — alleged plot to kill rapper Kyivstoner
-- **11 killed in a strike near Kyiv** — missiles stray into Poland; NATO alert
-- **Verstappen wins the Las Vegas GP** — wins by 0.639s; 35 lead changes
+Lead stories: **Democrats take the House, 258 seats** — biggest
+majority since 1992; **Ukraine says it sank a Russian corvette** —
+Zelenskyy: 7 sea drones sank the Merkury off Libya (Libya: badly
+damaged); **11 killed in a strike on Dymer** — drone hits a 5-storey
+block near Kyiv. Grid: EU proposes 22nd sanctions package; Iran
+strikes Bahrain; AI rout hits Asian chips; Nvidia reinstates Jensen
+Huang; Cikande factory fire, 24 dead; Vanuatu quake M6.5; Gaza strike
+kills 3, including UNRWA staff; US sanctions Iran exchanges; FIFA
+names 2031 World Cup hosts. Tail: NATO AWACS to Poland; US
+extradition order for 'El Chapo Isidro'; Virginia & Oregon sue SpaceX
+over Grok deepfakes; gold rebounds >2%; India's 720/9 ends in a draw;
+CrowdStrike to buy Zscaler; India pledges $1.6B to Nepal; UK sanctions
+Myanmar generals; Hormuz attacks at highest level (31 in October);
+Denmark expels a Russian attaché. DATE CHECK rejects COP31's collapse
+(Sunday 22 Nov), the Verstappen GP win (22 Nov), the Alcaraz ATP final
+(22 Nov), the ICJ Myanmar ruling (19 Nov), the Xi–Trump–Putin summit
+(19 Nov) and the Riemann Hypothesis 'proof' (unverified).
 
 ## How it works
 
